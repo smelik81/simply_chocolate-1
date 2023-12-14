@@ -1,0 +1,28 @@
+body {
+    background: #FAFAFA;
+}
+.main-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation a {
+    margin-right: 90px;
+}
+.navigation ul {
+    float: right;
+    list-style: none;
+}
+.navigation ul li {
+    display: inline;
+}
+.start {
+    max-width: 1200px;
+    height: 600px;
+    border-radius: 30px;
+    background: rgba(17, 17, 17, 0.60);
+}
+span {
+    color: #FD9222;
+}
